@@ -1,74 +1,95 @@
-# AI-Enhanced Customer Support Ticket Resolution and Proactive Issue Prevention System (Group 2)
+# AI-Enhanced Customer Support Ticket System - Rough Work Directory
 
-## 📌 Project Description
-This project aims to leverage Artificial Intelligence and Machine Learning (AIML) to enhance customer support ticket resolution and proactively prevent issues. The system utilizes AI-driven techniques to analyze support tickets, predict potential problems, and suggest resolutions before they escalate. The repository contains code, datasets, and models to demonstrate AI's role in automating and improving customer support processes.
+## 📌 Module Description
+This directory contains the rough work and initial development phases of the **AI-Enhanced Customer Support Ticket Resolution and Proactive Issue Prevention System (Group 2)**. It includes exploratory scripts, data preprocessing steps, draft models, and testing components.
 
-## 🚀 Features
-- AI-based customer support ticket classification and resolution
-- Predictive analytics for proactive issue prevention
-- Sentiment analysis for better customer insights
-- Automated response generation using NLP models
-- Dataset preprocessing and feature engineering
-- Model training and evaluation
-- Interactive UI for customer support integration
-- Visualization of results and analytics
+## 🚀 Contents & Details
+### 📁 `1. Data Collection`
+- Contains raw customer support ticket data.
+- Sources: CSV files, JSON logs, API scraped data.
+- Preprocessing scripts to clean and structure data.
+
+### 📁 `2. Preprocessing`
+- Feature extraction and selection.
+- Handling missing data, tokenization, and vectorization.
+- Scripts for converting textual data into ML-compatible formats.
+
+### 📁 `3. Sentiment Analysis`
+- Sentiment classification models (e.g., BERT, Vader).
+- Analysis of customer sentiment trends.
+- Helps in prioritizing tickets based on urgency and emotion.
+
+### 📁 `4. Automated Responses`
+- AI-powered response generation.
+- NLP-based chatbot to provide instant replies.
+- Integration with customer support workflow.
+
+### 📁 `5. Predictive Ticket Resolution`
+- Machine Learning models trained to predict resolutions.
+- Uses historical ticket data to suggest the best solution.
+- Reduces human intervention in ticket management.
+
+### 📁 `6. Dashboard & UI`
+- Web-based visualization of insights.
+- Flask/Streamlit interface for customer support teams.
+- Displays sentiment trends, ticket resolution stats, and response effectiveness.
 
 ## 🛠️ Technologies Used
 - Python
-- NumPy
-- Pandas
-- Scikit-Learn
-- TensorFlow / PyTorch (if applicable)
-- Natural Language Processing (NLP)
-- Matplotlib & Seaborn
-- Flask / Streamlit (for UI)
+- Scikit-Learn, TensorFlow/PyTorch
+- NLP libraries (spaCy, NLTK, Transformers)
+- Flask/Streamlit (for UI)
+- Matplotlib & Seaborn (for visualization)
 
-## 📂 Project Structure
-```
-AIML--PROJECT/
-│── data/                # Datasets used in the project
-│── models/              # Trained models
-│── notebooks/           # Jupyter notebooks with experiments
-│── scripts/             # Python scripts for training and testing
-│── results/             # Output results and visualizations
-│── images/              # Screenshots and visual representations
-│── app/                 # Main application files
-│── README.md            # Project documentation
-│── requirements.txt     # Dependencies and libraries
-```
+## 📂 Directory Structure
+customerSupportTickets/ │── rough/ │ │── 1. Data Collection/ │ │── 2. Preprocessing/ │ │── 3. Sentiment Analysis/ │ │── 4. Automated Responses/ │ │── 5. Predictive Ticket Resolution/ │ │── 6. Dashboard & UI/ │ │── README.md # Documentation for rough work
 
-## 📌 Installation
-1. Clone the repository:
+bash
+Copy
+Edit
+
+## 📌 Installation & Usage
+1. Clone the repository and navigate to this directory:
    ```bash
    git clone https://github.com/Swasthiga-0618/AIML--PROJECT.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd AIML--PROJECT
-   ```
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+   cd AIML--PROJECT/customerSupportTickets/rough
+Install dependencies:
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Run individual modules as needed:
+Preprocessing:
+bash
+Copy
+Edit
+python 2. Preprocessing/preprocess.py
+Sentiment Analysis:
+bash
+Copy
+Edit
+python 3. Sentiment Analysis/sentiment.py
+Automated Responses:
+bash
+Copy
+Edit
+python 4. Automated Responses/app.py
+📸 Screenshots & Results
+Example customer ticket sentiment analysis.
+Model prediction accuracy results.
+Screenshots of UI dashboards and chatbot interactions.
+🤝 Contributing
+If you want to contribute, feel free to fork the repository, make changes, and submit a pull request.
 
-## 📊 Usage
-- Run Jupyter notebooks for step-by-step implementation.
-- Use scripts in the `scripts/` folder for training and evaluation.
-- Load pre-trained models from the `models/` folder if available.
-- Launch the main application:
-   ```bash
-   python app/main.py
-   ```
-- View results in the `results/` folder.
-- Check `images/` for screenshots and visualizations.
-- Utilize the AI system for automatic customer support resolution and issue prevention.
+📜 License
+This project is licensed under the MIT License - see the LICENSE file.
 
-## 🤝 Contributing
-Contributions are welcome! Feel free to fork this repository, create a feature branch, and submit a pull request.
+📞 Contact
+For any queries, reach out via GitHub Issues.
 
-## 📜 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📞 Contact
-For any queries, reach out via [GitHub Issues](https://github.com/Swasthiga-0618/AIML--PROJECT/issues).
+
+
+
+
 
