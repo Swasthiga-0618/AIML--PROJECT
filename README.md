@@ -74,10 +74,7 @@ bash
 Copy
 Edit
 python 4. Automated Responses/app.py
-📸 Screenshots & Results
-Example customer ticket sentiment analysis.
-Model prediction accuracy results.
-Screenshots of UI dashboards and chatbot interactions.
+
 🤝 Contributing
 If you want to contribute, feel free to fork the repository, make changes, and submit a pull request.
 
